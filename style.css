@@ -12,12 +12,17 @@ body {
 
 /* NAVBAR */
 nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
     text-align: center;
     padding: 15px;
     background-color: rgba(0, 0, 0, 0.5);
     border-bottom: 1px solid #065380;
     position: sticky;
     top: 0;
+    
 }
 
 nav a {
@@ -40,9 +45,14 @@ header {
 
 /* CARDS */
 .card {
+    width: 95%;
+    margin: 15px auto;
+    padding: 15px;
+
+    
     max-width: 800px;
-    margin: 30px auto;
-    padding: 20px;
+
+ 
     border: 1px solid #065380;
     border-radius: 15px;
     background-color: rgba(0, 0, 0, 0.4);
@@ -69,4 +79,33 @@ footer {
     margin-top: 40px;
     border-top: 1px solid #065380;
     background-color: rgba(0, 0, 0, 0.4);
+}
+@media (max-width: 768px)
+{
+    nav a
+    {
+        display: block;
+        margin: 10px 0;
+    }
+
+    header
+    {
+        padding: 40px 15px;
+    }
+
+    .card
+    {
+        margin: 15px;
+        padding: 15px;
+    }
+
+    h1
+    {
+        font-size: 28px;
+    }
+
+    h2
+    {
+        font-size: 22px;
+    }
 }
