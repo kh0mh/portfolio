@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("Images/coolbackgrounds-fractalize-ranger_made (1).png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #e6e6e6;
+}
+
+/* NAVBAR */
+nav {
+    text-align: center;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-bottom: 1px solid #065380;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    color: #ccc;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #12bbad;
+}
+
+/* HEADER */
+header {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* CARDS */
+.card {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    border: 1px solid #065380;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* TITLES */
+h1, h2, h3 {
+    color: #12bbad;
+}
+
+/* LISTS */
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin: 6px 0;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    border-top: 1px solid #065380;
+    background-color: rgba(0, 0, 0, 0.4);
+}
