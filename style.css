@@ -5,55 +5,47 @@ html ,body{
 }
 
 body {
-
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    overflow-x: hidden;
-  
+    
+    color: #e6e6e6;
     font-family: Arial, sans-serif;
+   
     background-image: url("Images/coolbackgrounds-fractalize-ranger_made (1).png");
+   
     background-size: cover;
     background-position: center;
     background-repeat: repeat;
-    background-attachment:scroll;
+    background-attachment:fixed;
     
-    color: #e6e6e6;
-   
 }
 
 /* NAVBAR */
 nav {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 15px;
+    
     text-align: center;
     padding: 15px;
     background-color: rgba(0, 0, 0, 0.5);
-    border-bottom: 1px solid #065380;
-    position: sticky;
+    
     margin: 10px;
     border-radius: 10px;
     
 }
 
 nav a {
-    color: #ccc;
-    margin: 0 15px;
+    color: #12bbad;
+    margin:  25px;
     text-decoration: none;
     font-weight: bold;
 }
 
 nav a:hover {
-    color: #12bbad;
+    color:  #114a52;
 }
 
 /* HEADER */
 header {
     text-align: center;
-    margin : 10px;
-    padding: 60px 20px;
+    margin : 70px 10px ;
+    padding: 40px 20px;
     background-color: rgba(0, 0, 0, 0.4);
     border-radius: 10px;
 }
@@ -90,8 +82,9 @@ li {
 /* FOOTER */
 footer {
     text-align: center;
-    padding: 20px;
-    margin-top: 10px;
+    padding: 10px;
+    margin-top: 30%;
+    margin-bottom: -20px;
    
    /* background-color: rgba(0, 0, 0, 0.4);*/
 }
