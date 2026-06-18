@@ -52,15 +52,11 @@ header {
 
 /* CARDS */
 .card {
-    width: 95%;
-    margin: 15px auto;
+
+   
+    margin: 15px ;
     padding: 15px;
 
-    
-    max-width: 800px;
-
- 
-    border: 1px solid #065380;
     border-radius: 15px;
     background-color: rgba(0, 0, 0, 0.4);
 }
