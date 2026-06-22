@@ -9,7 +9,7 @@ body {
     color: #e6e6e6;
     font-family: Arial, sans-serif;
    
-    background-image: url("Images/coolbackgrounds-fractalize-ranger_made (1).png");
+    background-image: url("Images/coolbackgrounds-fractalize-ranger_made\ \(1\).png");
    
     background-size: cover;
     background-position: center;
@@ -49,12 +49,15 @@ header {
     padding: 40px 20px;
     background-color: rgba(0, 0, 0, 0.4);
     border-radius: 10px;
+    
 }
+
+
 
 /* CARDS */
 .card {
 
-   
+   line-height: 3.5ex;
     margin: 70px 10px ;
     padding: 15px;
     border: #114a52 solid 1px;
